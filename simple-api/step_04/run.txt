@@ -1,1 +1,5 @@
-go test -v -run="none" -bench=. -benchtime="5s" -benchmem
+# Call API
+$curl localhost:8080/hello -d '{"name":"Somkiat"}'
+
+# Benchmark
+$go test -v -run="none" -bench=. -benchtime="5s" -benchmem
