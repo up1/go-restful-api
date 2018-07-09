@@ -1,1 +1,10 @@
-response.json
+
+{
+  "header":{
+    "code":200,
+    "description":"Success"
+  },
+  "body":{
+    "message":"Hello World"
+  }
+}
