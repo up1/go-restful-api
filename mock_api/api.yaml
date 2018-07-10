@@ -1,0 +1,11 @@
+-  request:
+      method: GET
+      url: /search
+      query:
+        q: adidas
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: search_result_success.json
