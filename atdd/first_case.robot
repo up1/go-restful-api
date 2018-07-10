@@ -35,7 +35,8 @@ Add product id=1000 to empty basket
   ...  product_price=${1500}
   ...  product_image=http://xxx.jpg
   ...  quantity=${1}
-  ${response}=  Post Request  baskets  /baskets  data=${data}  headers=${headers}
+  ${response}=  Post Request  baskets  /baskets
+  ...  data=${data}  headers=${headers}
   Should Be Equal As Strings  ${response.status_code}  200
 
 Get basket detail of id=1
