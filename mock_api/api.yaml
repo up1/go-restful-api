@@ -32,3 +32,13 @@
       headers:
          content-type: application/json
       file: add_product_result_success.json
+
+-  request:
+      method: GET
+      url: /baskets/1
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: baskets_1.json

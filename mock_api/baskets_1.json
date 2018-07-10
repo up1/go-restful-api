@@ -1,0 +1,21 @@
+{
+  "header": {
+    "code": 200,
+    "description": "Success"
+  },
+  "body":{
+      "baskets_id": 1,
+      "total_price": 1500,
+      "products": [
+        {
+          "product_id": 1000,
+          "product_name": "Adidas",
+          "product_price": 1500,
+          "product_image": "http://xxx.jpg",
+          "quantity": 1
+        }
+      ],
+      "shipping": {},
+      "payment": {}
+  }
+}
