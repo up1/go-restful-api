@@ -9,3 +9,13 @@
       headers:
          content-type: application/json
       file: search_result_success.json
+
+-  request:
+      method: GET
+      url: /product/1000
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: product_1000.json
