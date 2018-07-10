@@ -2,3 +2,7 @@ bin/
 pkg/
 vendor/
 coverage.out
+atdd/log.html
+atdd/output.xml
+atdd/report.html
+mock_api/stubby4j-6.0.1.jar
