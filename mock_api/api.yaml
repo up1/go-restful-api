@@ -19,3 +19,16 @@
       headers:
          content-type: application/json
       file: product_1000.json
+
+-  request:
+      method: POST
+      url: /baskets
+      headers:
+         content-type: application/json
+      file: add_product_1000.json
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: add_product_result_success.json
