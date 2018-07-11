@@ -1,0 +1,46 @@
+#java -jar stubby4j-6.0.1.jar --data api.yaml -l <ip>
+-  request:
+      method: GET
+      headers:
+         content-type: application/json
+      url: /search
+      query:
+        q: adidas
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: search_result_success.json
+-  request:
+      method: GET
+      url: /product/1000
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: product_1000.json
+
+-  request:
+      method: POST
+      url: /baskets
+      headers:
+         content-type: application/json
+      file: add_product_1000.json
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: add_product_result_success.json
+
+-  request:
+      method: GET
+      url: /baskets/1
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: baskets_1.json
