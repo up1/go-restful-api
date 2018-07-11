@@ -12,5 +12,5 @@
   * Basic of Docker
   * Docker command
   * Working with Dockerfile
-  * Working with multi-stage build
-  * Working with docker-compose
+  * Working with [multi-stage build](https://docs.docker.com/develop/develop-images/multistage-build/)
+  * Working with [docker-compose](https://docs.docker.com/compose)
